@@ -18,8 +18,7 @@ var swiper = new Swiper(".testi_swiper", {
       },
       320: {
           slidesPerView: 2,
-          spaceBetween: 24,
-          slidesOffsetBefore: 16,
+          spaceBetween: 16,
           slidesOffsetAfter: 32,
           //centeredSlides: true,
       }
