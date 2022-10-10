@@ -307,8 +307,8 @@ margin: 8px 0px;
   }
 .hero_input:after {
     position: absolute ;
-    top: 414px;
-    right: 25px;
+    top: -5px;
+    left: 258px;
   
     content: "@"; /* Добавляемый текст */ 
     color: rgb(0, 0, 0); 
@@ -317,10 +317,9 @@ margin: 8px 0px;
   
     padding: 2px;  
    }
-   @media (min-width: 834px){
+  @media (min-width: 834px){
     .hero_input:after {
-      top: 376px;
-      right: 325px;
+      left:290px;
    }
   }
   
@@ -757,8 +756,8 @@ color: #0D0E14;
   }
   .subscr_input:after {
     position: absolute ;
-    top: 3600px;
-    right: 40px;
+    top: -5px;
+    left: 222px;
     content: "@"; /* Добавляемый текст */ 
     color: rgb(0, 0, 0); 
     /*background-color: #fc0;  */
@@ -767,8 +766,7 @@ color: #0D0E14;
    }
    @media (min-width: 834px){
     .subscr_input:after {
-      top: 3740px;
-      right: 320px;
+      left: 290px;
    }
   }
   @media (min-width: 1200px){
@@ -909,8 +907,8 @@ margin: 16px 0px;
 }
 .foot_input:after {
   position: absolute ;
-  top: 3918px;
-  right: 135px;
+  top: 22px;
+  left: 152px;
   content: "@"; /* Добавляемый текст */ 
   color: rgb(0, 0, 0); 
   /*background-color: #fc0;  */
@@ -919,8 +917,8 @@ margin: 16px 0px;
  }
  @media (min-width: 834px){
   .foot_input:after {
-    top: 4072px;
-    left: 435px;
+    top: -5px;
+    left: 360px;
  }
 }
  @media (min-width: 1200px){
@@ -936,3 +934,6 @@ margin: 16px 0px;
  }
 }
 
+span{
+  position: relative;
+}
